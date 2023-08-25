@@ -1,0 +1,21 @@
+.btnAdicionarNewTask{
+    width: 90px;
+    height: 52px;
+    color:var(--gray-100);
+    background: var(--blue-dark);
+    border-radius: 8px;
+    border:none;
+    padding: 16px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.iconAdd{
+    width: 16px;
+    height: 16px;
+    color: var(--gray-100);
+}

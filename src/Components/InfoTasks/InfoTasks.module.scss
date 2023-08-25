@@ -1,0 +1,50 @@
+.infoTasksContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 770px;
+    height: 19px;
+    margin: 0 auto;
+    position: relative;
+    top:210px;
+}
+
+.tasksCreated{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tasksDone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tasksCreatedText{
+    color: var(--blue);
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.tasksDoneText{
+    color: var(--purple);
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.tasksCounter{
+    background: var(--gray-400);
+    width: 25px;
+    height: 19px;
+    padding: 2px 8px 2px 8px;
+    border-radius: 9px;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--gray-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
