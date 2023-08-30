@@ -1,11 +1,18 @@
-.infoTasksContainer{
+.tasksContainer{
+    width: 736px;
+    height: 451px;
     display: flex;
-    justify-content: space-between;
-    width: 770px;
+    margin: 64px auto 0;
+    flex-direction: column;
+    gap:24px;
+}
+
+.infoTasks{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     height: 19px;
-    margin: 0 auto;
-    position: relative;
-    top:210px;
+    justify-content: space-between;
 }
 
 .tasksCreated{
@@ -13,12 +20,14 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    flex-direction: row;
 }
 
 .tasksDone{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     gap: 10px;
 }
 
@@ -36,7 +45,7 @@
 
 .tasksCounter{
     background: var(--gray-400);
-    width: 25px;
+    min-width: 24px;
     height: 19px;
     padding: 2px 8px 2px 8px;
     border-radius: 9px;
@@ -47,4 +56,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.tasksList{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }

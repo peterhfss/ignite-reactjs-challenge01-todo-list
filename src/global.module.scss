@@ -27,4 +27,15 @@ body{
     background: var(--gray-600);
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
+
+:focus{
+    outline: none;
+    box-shadow:  0 0 0 2px var(--blue);
+    
+}
+
+
+
+
