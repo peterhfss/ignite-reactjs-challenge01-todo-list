@@ -3,9 +3,6 @@
     <img alt="ToDo List" src="./src/assets/banner.jpg" />
 </h1>
 
-<h4 align="center"> 
-	🚧  Em desenvolvimento 🚀 🚧
-</h4>
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
@@ -24,10 +21,10 @@ Esse é um projeto dos desafios da trilha de React do Ignite, o bootcamp complet
 
 ## ⚙️ Funcionalidades
 
-- [ ] Adicionar uma nova tarefa
-- [ ] Marcar e desmarcar uma tarefa como concluída
-- [ ] Remover uma tarefa da listagem
-- [ ] Mostrar o progresso de conclusão das tarefas
+- [x] Adicionar uma nova tarefa
+- [x] Marcar e desmarcar uma tarefa como concluída
+- [x] Remover uma tarefa da listagem
+- [x] Mostrar o progresso de conclusão das tarefas
 ---
 
 
